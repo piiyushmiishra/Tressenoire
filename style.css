@@ -97,7 +97,7 @@ nav.navbar-default { background:none; border:none}
 
 .return {padding: 0px; margin: 18px auto;}
 .return ul {padding: 0px; margin: 0px auto; list-style: none;}
-.return ul li {padding-left: 15px; margin: 0px auto; background: url(../HTML/images/prev-icon.png) -2px 2px no-repeat; color: #b1245e; font-size: 12px; font-weight: bold; } 
+.return ul li {padding-left: 15px; margin: 0px auto; background: url(images/prev-icon.png) -2px 2px no-repeat; color: #b1245e; font-size: 12px; font-weight: bold; } 
 
 .form-button {padding:20px 30px; margin: 0px auto; float: right; background-color: #9f0f4c; color: white; font-size: 11px; font-weight: bold; border: none; border-radius: 4px;}
 .form-button:hover { background:rgba(0,0,255,0.2); transition:linear 0.8s}
@@ -111,7 +111,7 @@ nav.navbar-default { background:none; border:none}
 
 .product {padding:0px 0px; margin-top: 50px; margin-bottom: 20px;}
 .product-name {padding: 0px; margin: 0px auto; float: left;}
-.product-name h3 {padding: 25px 0px 25px 70px; margin: 0px auto; font-size: 16px; font-weight: bold; background: url(../HTML/images/Product-img.png) left top no-repeat;}
+.product-name h3 {padding: 25px 0px 25px 70px; margin: 0px auto; font-size: 16px; font-weight: bold; background: url(images/Product-img.png) left top no-repeat;}
 
 .product-price {padding: 20px 0px; margin: 0px auto; float: right;}
 .product-price h3 {padding: 0px; margin: 0px auto; font-size: 16px; font-weight: bold; }
@@ -465,7 +465,7 @@ button.navbar-toggle {width:44px; height:34px}
 .boxSlot { padding: 0px; margin-top: 60px; display: flex; justify-content: center;}
 
 .complete-box {padding: 15px 10px 0px 20px; margin: 0px auto; background: #f4f4f4; border-radius: 15px;}
-.complete-box h1 {padding: 5px 0px 5px 0px; margin: 0px auto; font-size: 16px; font-style: italic; background: url(../HTML/images/complete-icon.png) 80px top no-repeat; background-size: 25px; text-align: center;}
+.complete-box h1 {padding: 5px 0px 5px 0px; margin: 0px auto; font-size: 16px; font-style: italic; background: url(images/complete-icon.png) 80px top no-repeat; background-size: 25px; text-align: center;}
 .complete-box p {padding: 10px 0px; margin: 0px auto; font-size: 16px;}
 .complete-box span {padding: 0; margin: 0px auto; color:#b1245e; font-weight: bold;}
 
@@ -479,7 +479,7 @@ button.navbar-toggle {width:44px; height:34px}
 
 .updates-link {padding: 0px; margin: 10px 0px 0px 40px; display: flex; justify-content: center;}
 .updates-link ul {padding: 0px; margin: 0px auto; list-style: none;}
-.updates-link ul li {padding: 0px 0px 3px 15px; margin: 0px auto; background: url(../HTML/images/updates-link_list-style.png) left 3px no-repeat; background-size: 10px; font-size: 13px;}
+.updates-link ul li {padding: 0px 0px 3px 15px; margin: 0px auto; background: url(images/updates-link_list-style.png) left 3px no-repeat; background-size: 10px; font-size: 13px;}
 .updates-link ul li a {text-decoration: none; color: #000;}
 .updates-link ul li a:hover { color: red; -webkit-transition: 0.5s; transition: 0.5s; }
 
@@ -536,7 +536,7 @@ button.navbar-toggle {width:44px; height:34px}
 .account-border span { display:block; height:25px; width:200px; font-size: 16px; font-weight: bolder; background:#fff; border-radius:200px; position:absolute; left:40%; top:-10px; text-align:center }
 
 .account-txt {padding: 0px; margin: 55px auto; justify-content: center; display: grid;}
-.account-txt h1 {padding: 5px 0px 5px 40px; margin: 0px auto; font-size: 16px; background: url(../HTML/images/complete-icon.png) left top no-repeat; background-size: 25px; }
+.account-txt h1 {padding: 5px 0px 5px 40px; margin: 0px auto; font-size: 16px; background: url(images/complete-icon.png) left top no-repeat; background-size: 25px; }
 .account-txt p {padding: 10px 0px; margin: 0px auto; font-size: 16px;}
 
 
@@ -544,7 +544,7 @@ button.navbar-toggle {width:44px; height:34px}
 
 .edit-return {padding: 0px; margin: 18px auto; float: left; }
 .edit-return ul {padding: 0px; margin: 0px auto; list-style: none;}
-.edit-return ul li {padding-left: 15px; margin: 0px auto; background: url(../HTML/images/prev-icon.png) -2px 2px no-repeat;  font-size: 14px; font-weight: bold; } 
+.edit-return ul li {padding-left: 15px; margin: 0px auto; background: url(images/prev-icon.png) -2px 2px no-repeat;  font-size: 14px; font-weight: bold; } 
 .edit-return ul li a {color: #b1245e; text-decoration: none;}
 .edit-return ul li a:hover {color:rgba(0,0,255,0.5); transition: 0.5s linear;}
 
@@ -562,7 +562,7 @@ button.navbar-toggle {width:44px; height:34px}
 
 
 
-.home_headerWrap { padding:0px; margin:0px auto; background: url(../HTML/images/banner-background.png) left top no-repeat; background-size: cover; height: 500px;}
+.home_headerWrap { padding:0px; margin:0px auto; background: url(images/banner-background.png) left top no-repeat; background-size: cover; height: 500px;}
 .home_headerSlot { padding:0px; margin-top:30px;}
 .logo { padding:0px; margin-top:0px auto}
 
@@ -658,7 +658,7 @@ button.navbar-toggle {width:44px; height:34px}
 
 @media screen and (max-width:767px) {
 
-.home_headerWrap { background: url(../HTML/images/banner-background.png) -200px top no-repeat; background-size: cover }
+.home_headerWrap { background: url(images/banner-background.png) -200px top no-repeat; background-size: cover }
 .home_headerSlot { background:none; position:static}
 
 .logo { padding:0px 10px}
