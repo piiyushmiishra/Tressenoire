@@ -1,0 +1,717 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { font-family:Arial}
+
+.clearfix {clear: both;}
+
+.contactWrap { padding-top: 8px; margin:0px auto; background:#9f0f4c;}
+.contactSlot {padding:0px; margin:0px auto; }
+
+.contact {padding:0px; margin:0px auto; color:white }
+
+.phone {padding:0px; margin:0px auto;}
+.phone ul {padding:0px; margin:0px auto; list-style:none}
+.phone ul li {padding:8px 45px; margin:0px auto; background:url(images/phone-icon.png) left top no-repeat; font-size:14px}
+
+
+
+.mid-head {padding:0px; margin:0px auto;}
+.mid-head h3 {padding:8px 0px; margin:0px auto; font-size:14px; text-align: center;}
+
+.follow {padding:0px; margin:0px auto; float: right;}
+.follow h3 {padding:8px 0px; margin:0px auto; font-size:14px; float:left;}
+.follow ul {padding:0px; margin-left: 80px; list-style:none}
+.follow ul li {padding-left: 5px; margin:0px auto; display:inline-block;}
+.follow ul li img:hover { opacity:0.5; transition:0.5s linear }
+
+
+.headerWrap { padding:0px; margin:0px auto}
+.headerSlot { padding:0px; margin-top:30px;}
+.logo { padding:0px; margin-top:0px auto}
+
+
+.MENUGlobe {padding: 0px; margin: 0px auto; float: right;}
+.navbar { min-height:0px; margin-bottom:0px;}
+.navbar-nav { float:right}
+nav.navbar-default { background:none; border:none}
+
+.task-bar {padding: 0px 0px; margin-top: 20px; float:right}
+.task-bar ul {padding: 0px 0px; margin: 0px auto; list-style: none;}
+.task-bar ul li {padding: 0px 3px 0px 0px; margin: 0px auto; display: inline-block; font-size: 14px; text-decoration:none}
+.task-bar ul li a { padding:10px 8px 10px 8px; border:1px solid transparent; margin:0px auto; text-decoration:none; color:#000; transition:linear 0.5s}
+.task-bar ul li a:hover { border:1px solid #000; border-radius:3px}
+
+
+
+.page-heading {padding:0px; margin-top:60px; }
+.page-heading ul {padding:0px; margin:0px auto; list-style:none }
+.page-heading ul li {padding:0px 30px 0px 0px; margin:0px auto; display:inline-block; font-size:14px}
+.page-heading ul li.active { font-weight:bold}
+.page-heading ul li a { display:block; text-decoration:none; color:#000}
+.page-heading ul li a:hover {font-weight:bold}
+.page-heading h1 {padding: 0px; margin-top: 40px; font-size: 16px;}
+.page-heading h1 span {font-weight: bold; color: #b6376c;}
+
+.borderwrap { padding:0px ; margin-top:32px}
+.borderSlot { padding:0px ; margin:0px auto; position:relative; border-bottom:2px solid #000;}
+.borderSlot span { display:block; height:25px; width:50px; background:#fff; border-radius:200px; position:absolute; left:41%; top:-9px; text-align:center }
+
+
+.formWrap { padding:0px; margin:0px auto; position:relative}
+.formWrap:before { width:50%; right:0; top:0px; background:#f2f2f2; position:absolute; height:100%; content:""}
+.formSlot { padding:0px; margin:0px auto}
+
+
+.customer-info {padding:0px; margin-top:60px}
+.customer-info h1 {padding:0px; margin-bottom: 12px; font-size:18px; font-weight: bold;}
+
+.email { padding:10px 0px 10px 10px; margin:0px auto; width:100%; font-size: 12px; outline: none; border:2px solid rgba(0,0,0,0.5); border-radius: 3px;  }
+
+.name {padding: 0px; margin-top: 12px;}
+.f-name { padding:10px 0px 10px 10px; margin:0px auto; width:100%; font-size: 12px; outline: none; border:2px solid rgba(0,0,0,0.2); border-radius: 3px;  }
+.l-name { padding:10px 0px 10px 10px; margin:0px auto; width:100%; font-size: 12px; outline: none; border:2px solid rgba(0,0,0,0.2); border-radius: 3px;  }
+
+
+.address-info {padding:0px; margin-top:30px}
+.address-info h1 {padding:0px; margin: 0px auto; font-size:18px; font-weight: bold;}
+
+.address  { padding:10px 0px 10px 10px; margin-top: 12px; width:100%; font-size: 12px; outline: none; border:2px solid rgba(0,0,0,0.2); border-radius: 3px;  }
+.apartment  { padding:10px 0px 10px 10px; margin-top: 12px; width:100%; font-size: 12px; outline: none; border:2px solid rgba(0,0,0,0.2); border-radius: 3px;  }
+.city { padding:10px 0px 10px 10px; margin-top: 12px; width:100%; font-size: 12px; outline: none; border:2px solid rgba(0,0,0,0.2); border-radius: 3px;  }
+
+.country { padding:10px 0px 10px 10px; margin-top: 12px; width:100%; font-size: 12px; outline: none; border:2px solid rgba(0,0,0,0.2); border-radius: 3px;  }
+.city-opt { padding:10px 0px 10px 10px; margin-top: 12px; width:100%; font-size: 12px; outline: none; border:2px solid rgba(0,0,0,0.2); border-radius: 3px;  }
+.zip { padding:10px 0px 10px 10px; margin-top: 12px; width:100%; font-size: 12px; outline: none; border:2px solid rgba(0,0,0,0.2); border-radius: 3px;  }
+.Phone { padding:10px 0px 10px 10px; margin-top: 12px; width:100%; font-size: 12px; outline: none; border:2px solid rgba(0,0,0,0.2); border-radius: 3px;  }
+
+.additional { padding:0px; margin:15px auto;}
+.additional h1 { padding:0px 10px; margin:0px auto; font-size:16px; text-align:center; font-weight: bold;}
+.landmark { padding:10px 0px 10px 10px; margin-top: 12px; width:100%; font-size: 12px; outline: none; border:2px solid rgba(0,0,0,0.2); border-radius: 3px;  }
+
+.payment {padding: 0px; margin: 20px auto;}
+.box {padding: 0px; margin: 0px auto;}
+.box span {font-size: 13px; font-weight: bold;}
+
+.button {padding: 0px; margin: 15px auto;}
+
+.return {padding: 0px; margin: 18px auto;}
+.return ul {padding: 0px; margin: 0px auto; list-style: none;}
+.return ul li {padding-left: 15px; margin: 0px auto; background: url(../HTML/images/prev-icon.png) -2px 2px no-repeat; color: #b1245e; font-size: 12px; font-weight: bold; } 
+
+.form-button {padding:20px 30px; margin: 0px auto; float: right; background-color: #9f0f4c; color: white; font-size: 11px; font-weight: bold; border: none; border-radius: 4px;}
+.form-button:hover { background:rgba(0,0,255,0.2); transition:linear 0.8s}
+
+
+
+.summary {padding: 0px; margin: 0px auto; background: #f2f2f2; height: 820px;}
+.summarySlot {padding: 0px; margin: 0px auto; width: 420px;}
+.summarySlot h1 {padding-top: 20px; margin: 0px auto; font-size: 16px; text-align: center;}
+.summarySlot h2 {padding-top: 20px; margin: 0px auto; font-size: 16px; text-align: center; color: #b1245e;}
+
+.product {padding:0px 0px; margin-top: 50px; margin-bottom: 20px;}
+.product-name {padding: 0px; margin: 0px auto; float: left;}
+.product-name h3 {padding: 25px 0px 25px 70px; margin: 0px auto; font-size: 16px; font-weight: bold; background: url(../HTML/images/Product-img.png) left top no-repeat;}
+
+.product-price {padding: 20px 0px; margin: 0px auto; float: right;}
+.product-price h3 {padding: 0px; margin: 0px auto; font-size: 16px; font-weight: bold; }
+
+
+.additional-services {padding: 0px; margin: 0px auto;}
+.services {padding: 0px 90px; margin: 0px auto; display: flex; }
+
+.ad-1 {padding: 0px; margin: 0px auto; text-align: center; }
+.ad-1 h1 {padding: 10px 0px; margin: 0px auto; font-size: 14px;}
+.ad-1 ul {padding: 0px; margin: 0px auto; list-style: none}
+.ad-1 ul li {padding: 0px; margin: 0px auto;  width: 100%;}
+.ad-1 h2 {padding: 10px 0px; margin: 0px auto; font-size: 14px;}
+
+.ad-2 {padding: 0px; margin: 0px auto; text-align: center;}
+.ad-2 h1 {padding: 10px 0px; margin: 0px auto; font-size: 14px;}
+.ad-2 ul {padding: 0px; margin: 0px auto; list-style: none}
+.ad-2 ul li {padding: 0px; margin: 0px auto;  width: 100%;}
+.ad-2 h2 {padding: 10px 0px; margin: 0px auto; font-size: 14px;}
+
+.service-border {border-top: 2px solid #979797; margin:0px auto;}
+
+.coupon-form {padding: 0px; margin: 15px auto;}
+.coupon { padding:10px 0px 10px 10px; margin:0px auto; width:100%; font-size: 12px; outline: none; border:2px solid rgba(0,0,0,0.5); border-radius: 3px; background: #f2f2f2;  }
+
+
+.taxes {padding: 0px; margin: 0px auto;}
+
+.t-1 {padding: 0px; margin: 20px auto; float: left;}
+.t-1 h1 {padding: 0px; margin: 0px auto; font-size: 13px; font-weight: bold; color: #5c5c5c;}
+.t-1 h2 {padding-top: 10px; margin: 0px auto; font-size: 13px; text-align: left; color: #5c5c5c; font-weight: bold; color: #5c5c5c;}
+
+
+.t-2 {padding: 0px; margin: 20px auto; float: right;}
+.t-2 h1 {padding: 0px; margin: 0px auto; font-size: 13px; font-weight: bold; color: #5c5c5c;}
+.t-2 h2 {padding-top: 10px; margin: 0px auto; font-size: 13px; text-align: right; color: #5c5c5c; font-weight: bold; color: #5c5c5c;}
+
+.total-border {border-bottom: 2px solid #979797; margin:0px auto;}
+
+.t-price {padding: 0px; margin: 0px auto;}
+.t-price h1 {padding-top: 0px; margin: 0px auto; font-size: 20px; float: right; color: #5c5c5c; font-weight: bold; color: #5c5c5c;}
+.t-price h2 {padding-top: 0px; margin: 0px auto; font-size: 14px;  float: left;  color: #5c5c5c; font-weight: bold; color: #5c5c5c;}
+
+
+
+.terms-and-condition {padding: 0px; margin: 0px auto; text-align: center;}
+.terms-and-condition h1 {padding: 0px; margin: 0px auto; color: #b1245e; font-size: 14px; font-weight: bold; font-style: italic;}
+.terms-and-condition span {font-size: 13px; font-weight: bold;}
+
+.footerWrap {padding: 0px; margin: 0px auto; height: 265px; background-color: #4f4f4f;}
+.footerSlot {padding-top: 70px; margin: 0px 120px; position:relative }
+
+.menuSlot {padding: 0px; margin: 0px auto; }
+.menuSlot ul {padding: 0px; margin: 0px auto; list-style:none }
+.menuSlot ul li {padding: 0px 0px 5px 0px; margin: 0px auto; display:inline-block; color:#FFFFFF; font-size:16px; min-width:112px}
+
+.footer-icon {padding-left: 0px; margin: 0px auto; }
+.footer-icon ul {padding: 0px; margin: 0px auto; list-style:none }
+.footer-icon ul li {padding: 0px 0px 0px 8px; margin: 0px auto; display:inline-block; color:#FFFFFF}
+.footer-icon ul li img:hover { opacity:0.5; transition:0.5s linear }
+
+
+.footer-contact {padding: 0px; margin: 0px auto; }
+.footer-contact ul {padding: 0px; margin: 0px auto; list-style:none }
+.footer-contact ul li {padding: 0px; margin: 0px auto; color:#FFFFFF}
+
+
+
+
+
+
+
+@media screen and (max-width:1199px) {
+
+
+}
+
+
+
+@media screen and (max-width:992px) {
+
+.phone {padding:0px; margin:0px auto; float:left}
+
+.mid-head {padding:0px; float:left; margin-left:60px}
+
+
+.follow {padding:0px; margin:0px auto; float: right;}
+
+
+
+.headerWrap { padding:0px; margin:0px auto}
+.headerSlot { padding:0px; margin-top:30px}
+.logo { padding:0px; margin-top:0px}
+.logo img {max-width:100%}
+
+
+
+.task-bar {padding: 0px 0px; margin-top: 15px;}
+.task-bar ul {padding: 0px 0px; margin: 0px auto; list-style: none;}
+.task-bar ul li {padding: 0px 0px 0px 0px; margin: 0px auto; font-size: 11px; text-decoration:none}
+.task-bar ul li a { padding:10px 5px 10px 5px; text-decoration:none; color:#000;}
+.task-bar ul li a:hover { border:1px solid #000; border-radius:3px; font-weight:600}
+
+.MENUGlobe .container-fluid {padding:0px}
+div#bs-example-navbar-collapse-1 {padding:0px}
+
+
+
+.formWrap { padding:0px; margin:0px auto; position:relative}
+.formWrap:before { width:50%; right:0; top:0px; background:none; position:absolute; height:100%; content:""}
+.formSlot { padding:0px; margin:0px auto}
+
+
+
+.customer-info {padding:0px; margin-top:60px}
+.customer-info h1 {padding:0px; margin-bottom: 12px; font-size:18px; font-weight: bold;}
+
+.email { padding:10px 0px 10px 10px; margin:0px auto; width:100%; font-size: 12px; outline: none; border:2px solid rgba(0,0,0,0.5); border-radius: 3px;  }
+
+.name {padding: 0px; margin-top: 0px;}
+.f-name { padding:10px 0px 10px 10px; margin:12px auto; width:100%; font-size: 12px; outline: none; border:2px solid rgba(0,0,0,0.2); border-radius: 3px;  }
+.l-name { padding:10px 0px 10px 10px; margin:0px auto; width:100%; font-size: 12px; outline: none; border:2px solid rgba(0,0,0,0.2); border-radius: 3px;  }
+
+
+
+.form-button {padding:20px 30px; margin: 30px auto; float: left; background-color: #9f0f4c; color: white; font-size: 11px; font-weight: bold; border: none; border-radius: 4px;}
+
+
+.footerWrap {padding: 0px; margin: 0px auto; height: auto; background-color: #4f4f4f;}
+.footerSlot {padding-top: 70px; margin: 0px 0px;  }
+
+.menuSlot {padding: 0px; margin: 0px auto; }
+.menuSlot ul {padding: 0px; margin: 0px auto; list-style:none }
+.menuSlot ul li {padding: 0px 0px 10px 0px; margin: 0px auto; display:inline-block; color:#FFFFFF; font-size:16px; min-width:120px}
+
+.footer-icon {padding-left: 0px; margin: 0px auto;}
+.footer-icon ul {padding: 0px; margin: 0px auto; list-style:none }
+.footer-icon ul li {padding: 0px 0px 0px 8px; margin: 0px auto; display:inline-block; color:#FFFFFF}
+
+.footer-contact {padding: 0px; margin: 0px auto; }
+.footer-contact ul {padding: 0px; margin: 0px auto; list-style:none }
+.footer-contact ul li {padding: 0px; margin: 0px auto; color:#FFFFFF}
+
+
+
+
+}
+
+
+
+
+
+
+@media screen and (max-width:767px) {
+
+
+.contactWrap { padding-top: 8px; margin:0px auto; background:#9f0f4c;}
+.contactSlot {padding:0px; margin:0px auto; }
+
+.contact {padding:0px; margin:0px auto; color:white }
+
+.phone {padding:0px; margin:0px auto; position:absolute}
+.phone ul {padding:0px; margin:0px auto; list-style:none}
+.phone ul li {padding:8px 45px; margin:0px auto; background:url(images/phone-icon.png) left top no-repeat; font-size:14px}
+
+.mid-head {padding:0px; margin:0px auto; display:none}
+.mid-head h3 {padding:8px 0px; margin:0px auto; font-size:14px; text-align: center;}
+
+.follow {padding:0px; margin:0px auto; float: right;}
+.follow h3 {padding:8px 0px; margin:0px auto; font-size:14px; float:left; display:none}
+.follow ul {padding:0px; margin-left: 80px; list-style:none}
+.follow ul li {padding-left: 5px; margin:0px auto; display:inline-block;}
+
+
+.logo { padding:0px; margin-top:0px; float:left}
+.logo img {max-width:80%}
+
+
+.MENUGlobe {padding: 0px; margin: 0px auto; position: relative; float: none;}
+.navbar { min-height:0px; margin-bottom:0px;}
+.MENUGlobe .navbar-nav { float:right; margin: 0px auto;}
+nav.navbar-default { background:none; border:none}
+
+.navbar-default .collapsed .xtag { display:none!important;}
+.navbar-default .navbar-toggle .xtag { display:inline;}
+
+.navbar-default .navbar-toggle .icon-bar {display: none;}
+.navbar-default .collapsed .icon-bar { display:block;}
+
+.navbar-toggle .xtag {padding:0px; width:0px; height:0px}
+button.navbar-toggle {width:44px; height:34px}
+
+
+
+
+
+.task-bar {padding: 0px 0px; margin: 20px auto; position: absolute; box-shadow: 0px 10px 10px rgb(0 0 0 / 20%); transform: scale(1.05); left: 0px; z-index: 1; width: 100%; background: #fff; }
+.task-bar:hover {z-index: 1; }
+.task-bar ul {padding: 0px 0px; margin: 0px auto; list-style: none; float: none;}
+.task-bar ul li {padding: 0px 0px 0px 0px; margin: 0px auto; display: block; float: none; font-size: 14px; text-decoration:none; border-bottom:1px solid #ddd}
+.task-bar ul li a { padding:10px 8px 10px 8px; display: block; border:1px solid transparent; margin:0px auto; text-decoration:none; color:#000}
+.task-bar ul li a:hover { border:1px solid #000; border-radius:3px; font-weight: lighter;}
+
+
+
+.page-heading {padding:0px; margin-top:30px; }
+
+.summary {padding: 0px; margin: 0px auto; background: #f2f2f2;  height: 100%}
+.summarySlot {padding: 0px; margin: 0px auto; width:100%;}
+.summarySlot h1 {padding-top: 20px; margin: 0px auto; font-size: 14px; text-align: center;}
+.summarySlot h2 {padding-top: 20px; margin: 0px auto; font-size: 14px; text-align: center; color: #b1245e;}
+
+.product {padding:0px 0px; margin-top: 20px; margin-bottom: 20px;}
+.product-name {padding: 0px; margin: 0px 20px; float: left;}
+.product-name h3 {padding: 25px 0px 25px 0px; margin: 0px auto; font-size: 14px; font-weight: bold; background: none;}
+
+.product-price {padding: 20px 0px; margin: 0px 20px; float: right;}
+.product-price h3 {padding: 0px; margin: 0px auto; font-size: 14px; font-weight: bold; }
+
+
+.additional-services {padding: 0px; margin: 0px auto;}
+.services {padding: 0px 50px; margin: 0px auto; display: flex; }
+
+.ad-1 {padding: 0px; margin: 0px auto; text-align: center; }
+.ad-1 h1 {padding: 10px 0px; margin: 0px auto; font-size: 14px;}
+.ad-1 ul {padding: 0px; margin: 0px auto; list-style: none}
+.ad-1 ul li {padding: 0px; margin: 0px auto;  width: 100%;}
+.ad-1 h2 {padding: 10px 0px; margin: 0px auto; font-size: 14px;}
+
+.ad-2 {padding: 0px; margin: 0px auto; text-align: center;}
+.ad-2 h1 {padding: 10px 0px; margin: 0px auto; font-size: 14px;}
+.ad-2 ul {padding: 0px; margin: 0px auto; list-style: none}
+.ad-2 ul li {padding: 0px; margin: 0px auto;  width: 100%;}
+.ad-2 h2 {padding: 10px 0px; margin: 0px auto; font-size: 14px;}
+
+.service-border {border-top: 2px solid #979797; margin:0px 20px;}
+
+.coupon-form {padding: 0px; margin: 15px auto;}
+.coupon { padding:10px 0px 10px 10px; margin:0px auto; width:100%; font-size: 12px; outline: none; border:2px solid rgba(0,0,0,0.5); border-radius: 3px; background: #f2f2f2;  }
+
+
+.taxes {padding: 0px; margin: 0px 20px;}
+
+.t-1 {padding: 0px; margin: 20px auto; float: left;}
+.t-1 h1 {padding: 0px; margin: 0px auto; font-size: 13px; font-weight: bold; color: #5c5c5c;}
+.t-1 h2 {padding-top: 10px; margin: 0px auto; font-size: 13px; text-align: left; color: #5c5c5c; font-weight: bold; color: #5c5c5c;}
+
+
+.t-2 {padding: 0px; margin: 20px auto; float: right;}
+.t-2 h1 {padding: 0px; margin: 0px auto; font-size: 13px; font-weight: bold; color: #5c5c5c;}
+.t-2 h2 {padding-top: 10px; margin: 0px auto; font-size: 13px; text-align: right; color: #5c5c5c; font-weight: bold; color: #5c5c5c;}
+
+.total-border {border-bottom: 2px solid #979797; margin:0px auto;}
+
+.t-price {padding: 0px; margin: 10px auto;}
+.t-price h1 {padding-top: 0px; margin: 0px auto; font-size: 14px; float: right; color: #5c5c5c; font-weight: bold; color: #5c5c5c;}
+.t-price h2 {padding-top: 0px; margin: 0px auto; font-size: 14px;  float: left;  color: #5c5c5c; font-weight: bold; color: #5c5c5c;}
+
+
+
+.terms-and-condition {padding: 0px; margin: 20px auto; text-align: center;}
+.terms-and-condition h1 {padding: 0px; margin: 0px auto; color: #b1245e; font-size: 14px; font-weight: bold; font-style: italic;}
+.terms-and-condition span {font-size: 13px; font-weight: bold;}
+
+
+.footerWrap {padding: 0px; margin: 0px auto; height:auto; background-color: #4f4f4f;}
+.footerSlot {padding-top: 70px; margin: 0px 0px; }
+
+.menuSlot {padding: 0px; margin: 0px auto; }
+.menuSlot ul {padding: 0px; margin: 0px auto; list-style:none }
+.menuSlot ul li {padding: 0px 0px 10px 0px; margin: 0px auto; display:block; color:#FFFFFF; font-size:16px; min-width:120px; text-align:center}
+
+.footer-icon {padding: 0px; margin: 30px auto; text-align:center}
+.footer-icon ul {padding: 0px; margin: 0px auto; list-style:none }
+.footer-icon ul li {padding: 0px 8px 0px 0px; margin: 0px auto; display:inline-block; color:#FFFFFF;  text-align:center}
+
+.footer-contact {padding: 0px; margin: 0px auto; }
+.footer-contact ul {padding: 0px; margin: 0px auto; list-style:none }
+.footer-contact ul li {padding: 5px 0px; margin: 0px auto; color:#FFFFFF; text-align:center}
+
+
+
+}
+
+
+
+
+/*start Booking Page here*/
+
+.debitWrap { padding:0px; margin-top:70px; position:relative}
+.debitWrap:before { width:50%; right:0; top:0px; background:#f2f2f2; position:absolute; height:100%; content:""}
+.debitSlot { padding:0px; margin:0px auto}
+
+.booking-info {padding:0px; margin:0px auto}
+.booking-info h1 {padding-bottom:15px; margin:0px auto; font-size:16px; font-weight: 600;}
+
+.appointment-opt {padding:10px 15px; margin:0px auto; border: 1px solid #979797; border-radius: 8px 8px 0px 0px;}
+.appointment-opt label {padding:0px; margin:0px auto; font-size:13px; }
+.appointment-opt span {padding-left:40px; margin:0px auto; font-size:14px; font-weight: bold; color: #b1245e; }
+.appointment-opt p {padding:10px 15px; margin:0px auto; font-size:13px; }
+
+
+.payment-opt {padding:10px 15px; margin:0px auto; border: 1px solid #979797; border-radius: 0px 0px 8px 8px;}
+.payment-opt label {padding:0px; margin:0px auto; font-size:13px; }
+.payment-opt span {padding-left:40px; margin:0px auto; font-size:14px; font-weight: bold; color: #b1245e; }
+
+.payment-opt ul { padding:0px 15px; margin:0px auto; list-style:none}
+.payment-opt ul li { padding-left:45px; margin:0px auto; list-style:none; font-size:13px; background:url(images/debit-card.png) left 2px no-repeat; background-size: 40px; }
+
+
+.billing-opt  { padding:0px; margin-top:10px} 
+.billing-opt label {padding:0px; margin:0px auto; font-size:13px; }
+.billing-opt p {padding:0px 15px; margin:0px auto; font-size:13px; }
+
+
+
+@media screen and (max-width:992px) {
+
+.debitWrap::before { background:none}
+
+
+}
+
+
+
+
+@media screen and (max-width:767px) {
+
+.debitWrap::before { background:none}
+
+
+}
+
+
+
+/*end Booking Page here*/
+
+
+
+
+
+/*start Payment Done here*/
+
+.congWrap { padding:0px; margin:100px auto; }
+.congSlot { padding:0px; margin:0px auto}
+
+.congratulation-border { padding:0px ; margin-top:32px}
+.congratulation-border { padding:0px ; margin:0px auto; position:relative; border-bottom:1px solid #9f0f4c;}
+.congratulation-border span { display:block; height:25px; width:250px; font-size: 16px; font-weight: bolder; background:#fff; border-radius:200px; position:absolute; left:37%; top:-10px; text-align:center }
+
+.boxSlot { padding: 0px; margin-top: 60px; display: flex; justify-content: center;}
+
+.complete-box {padding: 15px 10px 0px 20px; margin: 0px auto; background: #f4f4f4; border-radius: 15px;}
+.complete-box h1 {padding: 5px 0px 5px 0px; margin: 0px auto; font-size: 16px; font-style: italic; background: url(../HTML/images/complete-icon.png) 80px top no-repeat; background-size: 25px; text-align: center;}
+.complete-box p {padding: 10px 0px; margin: 0px auto; font-size: 16px;}
+.complete-box span {padding: 0; margin: 0px auto; color:#b1245e; font-weight: bold;}
+
+
+.fluid { padding: 0px; margin: 0px auto; display: grid; justify-content: center;}
+
+.new_acc {padding: 0px; margin-top: 50px; text-align: center;}
+.new_acc-button {padding:20px 30px; margin: 0px auto; text-align: center; background-color: #9f0f4c; color: white; font-size: 11px; font-weight: bold; border: none; border-radius: 4px;}
+.new_acc-button a {color: #fff; }
+.new_acc-button:hover { background:rgba(0,0,255,0.2); transition:linear 0.8s;}
+
+.updates-link {padding: 0px; margin: 10px 0px 0px 40px; display: flex; justify-content: center;}
+.updates-link ul {padding: 0px; margin: 0px auto; list-style: none;}
+.updates-link ul li {padding: 0px 0px 3px 15px; margin: 0px auto; background: url(../HTML/images/updates-link_list-style.png) left 3px no-repeat; background-size: 10px; font-size: 13px;}
+.updates-link ul li a {text-decoration: none; color: #000;}
+.updates-link ul li a:hover { color: red; -webkit-transition: 0.5s; transition: 0.5s; }
+
+.sharewrap {padding: 0px; margin: 60px auto;}
+.share-border { padding:0px ; margin-top:32px}
+.share-border { padding:0px ; margin:0px auto; position:relative; border-top:1px solid #9f0f4c; width: 75%;}
+.share-border span { padding-top:10px ; margin:0px auto; font-size: 20px; font-weight: lighter; border-radius:200px; position:absolute; left:28%; top:0px; text-align:center }
+
+.share-service {padding: 0px; margin: 0px auto; text-align: center;}
+.share-service ul {padding: 0px; margin: 0px auto; list-style: none;}
+.share-service ul li {padding: 8px 4px; margin-right: 5px; border: 2px solid #979797; display: inline-block; border-radius: 100px;}
+.share-service ul li img {width: 62%;}
+.share-service ul li:hover {background-color: rgba(0,0,0,0.5); transition:linear 0.3s}
+
+
+
+
+
+/*end Payment Done here*/
+
+
+
+/*start Popup Page here*/
+
+
+.popupWrap { display:none;}
+.popupWrap.active { display:block;}
+.popupTransparent { background:rgba(0,0,0,0.2); position:fixed; left:0px; top:0px; width:100%; height:100%;}
+.popupWrap .closePopup { position:absolute; right:10px; top:0px; font-size:22px; cursor:pointer;}
+    	
+.popup { padding:0px 0px 30px 0px; margin-left:-180px; width:365px; background:white; position: absolute; left: 50%; top: 39%; border-radius:15px}
+	
+.fill-Detail {padding:40px 60px 0px 50px;} 
+.fill-Detail label {font-size: 16px;}
+.fill-Detail p {font-size: 13px; font-style: italic;}
+	
+.confim_acc {padding: 0px; margin-top: 25px; text-align: center;}
+.confirm-button {padding:0px; margin: 0px auto; text-align: center; width: 160px; height: 60px; background-color: #9f0f4c; color: white; font-size: 11px; font-weight: bold; border: none; border-radius: 5px;}
+.confirm-button a {color: #fff; }
+.confirm-button:hover { background:rgba(0,0,255,0.2); transition:linear 0.8s;}
+
+
+/*end Popup Page here*/
+
+
+
+/*start Account Created here*/
+
+.accountWrap { padding:0px; margin:100px auto; }
+.accountSlot { padding:0px; margin:0px auto}
+
+.account-border { padding:0px ; margin-top:32px}
+.account-border { padding:0px ; margin:0px auto; position:relative; border-bottom:1px solid #9f0f4c;}
+.account-border span { display:block; height:25px; width:200px; font-size: 16px; font-weight: bolder; background:#fff; border-radius:200px; position:absolute; left:40%; top:-10px; text-align:center }
+
+.account-txt {padding: 0px; margin: 55px auto; justify-content: center; display: grid;}
+.account-txt h1 {padding: 5px 0px 5px 40px; margin: 0px auto; font-size: 16px; background: url(../HTML/images/complete-icon.png) left top no-repeat; background-size: 25px; }
+.account-txt p {padding: 10px 0px; margin: 0px auto; font-size: 16px;}
+
+
+.editSlot {padding: 0px; margin: 0px auto; width: 580px;}
+
+.edit-return {padding: 0px; margin: 18px auto; float: left; }
+.edit-return ul {padding: 0px; margin: 0px auto; list-style: none;}
+.edit-return ul li {padding-left: 15px; margin: 0px auto; background: url(../HTML/images/prev-icon.png) -2px 2px no-repeat;  font-size: 14px; font-weight: bold; } 
+.edit-return ul li a {color: #b1245e; text-decoration: none;}
+.edit-return ul li a:hover {color:rgba(0,0,255,0.5); transition: 0.5s linear;}
+
+.edit-button {padding:20px 40px; margin: 0px 30px; text-align: center; background-color: #9f0f4c; color: white; font-size: 11px; font-weight: bold; border: none; border-radius: 4px;}
+.edit-button a {color: #fff; }
+.edit-button:hover { background:rgba(0,0,255,0.2); transition:linear 0.8s;}
+
+.zzz {margin-top: 15rem;}
+
+/*end Account Created here*/
+
+
+
+/*start Home Page here*/
+
+
+
+.home_headerWrap { padding:0px; margin:0px auto; background: url(../HTML/images/banner-background.png) left top no-repeat; background-size: cover; height: 500px;}
+.home_headerSlot { padding:0px; margin-top:30px;}
+.logo { padding:0px; margin-top:0px auto}
+
+
+.banner-txt {padding: 0px; margin: 0px auto; color: #fff; top: 8em; position: absolute; right: 0;}
+.banner-txt h1 {padding: 0px; margin: 0px auto; font-size: 38px; text-align: center; }
+.banner-txt span {padding: 0px; margin: 0px auto; font-size: 28px; font-weight: bold; }
+
+.banner-btn {padding:15px 30px; margin-top: 20px; float: right; text-align: center; background-color: #f6930e; color: white; font-size: 20px; font-weight: lighter; border-radius: 14px; }
+.banner-btn a {color: #fff; }
+.banner-btn:hover { background:rgba(0,0,255,0.2); transition:linear 0.8s;}
+
+
+.home_task-bar {padding: 0px 0px; margin-top: 20px; float:right}
+.home_task-bar ul {padding: 0px 0px; margin: 0px auto; list-style: none;}
+.home_task-bar ul li {padding: 0px 3px 0px 0px; margin: 0px auto; display: inline-block; font-size: 16px; font-weight: bold; text-decoration:none}
+.home_task-bar ul li a { padding:10px 8px 10px 8px; border:1px solid transparent; margin:0px auto; text-decoration:none; color:#000; }
+.home_task-bar ul li a:hover { background:rgba(183,16,77,0.5); border-radius:5px; color:white;}
+
+
+
+
+.workWrap {padding: 0px; margin: 0px auto; background: #b7104d; color: #fff;}
+.workSlot {padding: 0px; margin: 0px auto;}
+.workSlot h1 {text-align:center; text-transform:uppercase; font-size:30px; font-weight: bold; letter-spacing: 2pt;}
+.work {padding: 0px; margin: 0px auto; text-align: center;}
+.work img { width: 30%;}
+.work h3 { font-size:22px; font-weight:lighter}
+
+.pampering { padding:50px; margin:0px auto; background:url(images/misson_bg.png) left top no-repeat; background-size: cover;}
+.pampering h1 { padding:0px; margin:0px auto; font-size:30px; font-weight:bold }
+.pampering p { padding-right:10em; margin:25px auto; font-size:20px; }
+.pampering span { text-decoration:underline}
+
+
+.trending-setting { text-align:center; margin: 30px auto;}
+.setting-btn { padding:0px; margin:0px auto; background:#b7104d; color:#FFFFFF; border:none; font-size:20px; width:450px; height:40px; text-align:center}
+.setting-btn span { font-style:italic; font-family:"Times New Roman", Times, serif; font-size:22px}
+
+
+.clientWrap {padding: 0px; margin: 0px auto; }
+.clientSlot {padding: 0px; margin: 0px auto; }
+.clients img {padding: 0px; margin: 0px auto; border:1px solid; width: 100%; }
+
+
+
+.meet-clients { text-align:center; margin: 30px auto;}
+.client-btn { padding:0px; margin:0px auto; background:#b7104d; font-family: tIMES NEW ROMAN; color:#FFFFFF; border:none; font-size:28px; width:550px; height:45px; text-align:center}
+.client-btn span {font-family: Myriad Pro; font-size:20px}
+
+
+
+
+@media screen and (max-width:992px) {
+
+.home_headerWrap { position:relative}
+.home_headerWrap::before { background:rgba(0,0,0,0.4); content:""; min-width:100%; min-height:100%; position:absolute}
+.home_headerSlot { background:rgba(256,256,256,0.5); border-radius:25px; z-index: 1; position: absolute;}
+
+.logo { padding:10px 20px}
+.logo img { max-width:80%}
+
+.home_task-bar {margin-top: 15px;}
+.home_task-bar ul li {font-size: 15px;}
+.home_task-bar ul li a { padding:10px 8px 10px 8px; border:1px solid transparent; margin:0px auto; text-decoration:none; color:#000; }
+.home_task-bar ul li a:hover { background:rgba(183,16,77,0.5); border-radius:18px; color:white;}
+
+
+
+.banner-txt {top: 18em; right:20%}
+
+.banner-btn {padding:15px 15px; margin-top: 20px; float:left; right:20%; position:absolute; font-size: 15px; font-weight: lighter; border-radius: 10px; }
+
+.workWrap {padding: 0px; margin: 0px auto; background: #b7104d; color: #fff;}
+.workSlot {padding: 0px; margin: 0px auto;}
+.workSlot h1 {text-align:center; text-transform:uppercase; font-size:25px; font-weight: bold; letter-spacing: 2pt;}
+.work {padding: 0px; margin: 0px auto; text-align: center;}
+.work img { width: 50%;}
+.work h3 { font-size:18px; font-weight:lighter}
+
+.pampering { padding:30px 0px; text-align:justify; }
+.pampering p { padding-right:0px; margin:20px auto; font-size:18px; }
+
+
+
+.clients {padding: 0px; margin-bottom: 50px; }
+
+
+
+
+
+}
+
+@media screen and (max-width:767px) {
+
+.home_headerWrap { background: url(../HTML/images/banner-background.png) -200px top no-repeat; background-size: cover }
+.home_headerSlot { background:none; position:static}
+
+.logo { padding:0px 10px}
+
+
+.MENUGlobe {padding: 0px; margin: 0px auto; position: relative; float: none;}
+.navbar { min-height:0px; margin-bottom:0px;}
+.MENUGlobe .navbar-nav { float:none; margin: 0px auto;}
+nav.navbar-default { background:none; border:none}
+
+.navbar-default .collapsed .xtag { display:none!important;}
+.navbar-default .navbar-toggle .xtag { display:inline;}
+
+.navbar-default .navbar-toggle .icon-bar {display: none;}
+.navbar-default .collapsed .icon-bar { display:block;}
+
+.navbar-toggle .xtag {padding:0px; width:0px; height:0px}
+button.navbar-toggle {width:44px; height:34px}
+
+
+.home_task-bar {padding: 0px 0px; margin: 0px auto; position: static; box-shadow: 0px 10px 10px rgb(0 0 0 / 20%); transform: scale(1); left: 0px; z-index: 1; width: 100%; background:rgba(256,256,256,0.5); }
+.home_task-bar:hover {z-index: 1; }
+.home_task-bar ul {padding: 0px 0px; margin: 0px auto; list-style: none; float: none;}
+.home_task-bar ul li {padding: 0px 0px 0px 0px; margin: 0px auto; display: block; float: none; font-size: 14px; text-decoration:none; border-bottom:1px solid #ddd}
+.home_task-bar ul li a { padding:10px 8px 10px 8px; display: block; border:1px solid transparent; margin:0px auto; text-decoration:none; color:#000}
+.home_task-bar ul li a:hover { border:1px solid #000; border-radius:3px; font-weight: lighter;}
+
+
+.banner-txt { padding:0px 25px; top: 10em; right:0%}
+.banner-txt h1{ font-size:30px}
+.banner-txt span{ font-size:22px}
+
+
+.workSlot h1 {font-size:22px;}
+.work img { width: 30%;}
+.work h3 { font-size:16px; font-weight:lighter}
+
+
+.pampering { padding:30px 0px; text-align:center; }
+.pampering h1 { font-size:25px}
+.pampering p { padding-right:0px; margin:20px auto; font-size:18px; }
+
+
+.setting-btn { width:300px; }
+
+.client-btn { width:300px; font-size:20px }
+.client-btn span {font-family: Myriad Pro; font-size:15px}
+
+.meet-clients { margin:0px 0px 30px 0px}
+
+
+}
+
+
+
+/*end Home Page here*/
